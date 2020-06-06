@@ -3,17 +3,17 @@ import { NavLink } from 'react-router-dom';
 import '../style/Nav.css'
 
 const menuLinks = [
-    { name: 'home', path: '/' },
-    { name: 'products', path: '/products' },
-    { name: 'contact', path: '/contact' },
-    { name: 'admin', path: '/admin' },
+    { id: 1, name: 'home', path: '/' },
+    { id: 2, name: 'products', path: '/products' },
+    { id: 3, name: 'contact', path: '/contact' },
+    { id: 4, name: 'admin', path: '/admin' },
 ]
 
 const Nav = () => {
 
     const menu =
         menuLinks.map((link) =>
-            <li>
+            <li key={link.id}>
                 <NavLink exact to={link.path}>{link.name}
                 </NavLink>
             </li>

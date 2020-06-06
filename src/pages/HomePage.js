@@ -14,7 +14,7 @@ const articles = [
         content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam libero ex alias provident molestiae ab suscipit consequatur? Corrupti, eaque. Necessitatibus!",
     },
     {
-        id: 2,
+        id: 3,
         title: "Importatnt Tiitle nr 3",
         content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam libero ex alias provident molestiae ab suscipit consequatur? Corrupti, eaque. Necessitatibus!",
     },
