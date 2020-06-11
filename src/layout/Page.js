@@ -6,6 +6,7 @@ import ProductsPage from '../pages/ProductsPage';
 import ContactPage from '../pages/ContactPage';
 import AdminPage from '../pages/AdminPage';
 import ErrorPage from '../pages/ErrorPage';
+import LoginPage from '../pages/LoginPage';
 
 const Page = () => {
     return (
@@ -22,6 +23,9 @@ const Page = () => {
                 )} />
                 <Route path='/admin' render={() => (
                     <AdminPage />
+                )} />
+                <Route path='/login' render={() => (
+                    <LoginPage />
                 )} />
                 <Route render={() => (
                     <ErrorPage />

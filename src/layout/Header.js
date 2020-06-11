@@ -25,6 +25,9 @@ const Header = () => {
                 <Route path="/admin" render={() => (
                     <img src={adminImg} alt='code' />
                 )} />
+                <Route path="/login" render={() => (
+                    <img src={adminImg} alt='code' />
+                )} />
                 <Route render={() => (
                     <img src={errorImg} alt='code' />
                 )} />
