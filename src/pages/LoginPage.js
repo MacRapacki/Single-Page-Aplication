@@ -1,11 +1,12 @@
 import React from 'react';
+import '../style/LoginPage.css'
 
 const LoginPage = () => {
     return (
         <>
-            <label htmlFor="">Login<input type="text" /></label>
-            <label htmlFor="">Password<input type="password" /></label>
-            <button>Enter</button>
+            <label className="login" htmlFor="">Login<input className="login__input" type="text" /></label>
+            <label className="password" htmlFor="">Password<input className="login__input" type="password" /></label>
+            <button className="login__btn" >Enter</button>
         </>
     );
 }
